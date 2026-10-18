@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+  /* background: black; */
+  color: white;
+}
+button{
+  padding:10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+}
+h1{
+  background: rgb(138, 137, 137);
+  width: fit-content;
+  border-radius: 5px;
+  font-size: 100px;
+  margin: 10px;
+  padding: 10px 80px;
+}

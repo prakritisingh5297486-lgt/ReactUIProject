@@ -1,0 +1,13 @@
+var a = document.querySelector('h1');
+
+// a.addEventListener('click', function() {    
+//     console.log('hello');
+// });   
+
+// or
+
+function hero(){
+    console.log('hello guys i am hero');
+}
+a.addEventListener('click',hero);
+a.addEventListener('click',hero()); // if call hero then it gets automatically execute the hero function without click 
