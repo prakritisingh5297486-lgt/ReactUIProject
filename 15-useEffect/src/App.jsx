@@ -45,7 +45,11 @@ const App = () => {
   useEffect(function(){
     aChanging();
     // console.log('Use effect is running');
-  },[a,b])   //jb a ki value change hogi tb chlega if [b] jb b ki value change hogi tb chlega
+  },[a])   //jb a ki value change hogi tb chlega if [b] jb b ki value change hogi tb chlega
+  useEffect(function(){
+    bChanging();
+    // console.log('Use effect is running');
+  },[b])   //jb b ki value change hogi tb chlega if [b] jb b ki value change hogi tb chlega
 
   return (
     <div>
